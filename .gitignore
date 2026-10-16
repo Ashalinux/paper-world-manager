@@ -1,0 +1,26 @@
+# build output
+build/
+target/
+out/
+dist/
+.gradle/
+node_modules/
+__pycache__/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+!libs/*.jar
+
+# IDE / tooling
+.idea/
+.vscode/
+*.iml
+.claude/
+.mcp.json
+
+# logs & secrets
+*.log
+logs/
+.env
+*.key
+*.pem
